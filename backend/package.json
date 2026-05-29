@@ -12,13 +12,13 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@stream-io/node-sdk": "^0.7.59",
     "cors": "^2.8.5",
     "devora": "file:..",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "inngest": "^4.4.0",
     "mongoose": "^8.19.1",
-    "stream": "^0.0.3",
     "stream-chat": "^9.44.2",
     "talent-iq": "file:.."
   },
