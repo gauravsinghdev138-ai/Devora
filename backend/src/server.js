@@ -7,7 +7,7 @@ import {ENV} from "./lib/env.js";
 import { connectDB } from "./lib/db.js";
 import { inngest, functions } from "./lib/inngest.js";
 import { protectRoute } from "./middleware/protectRoute.js";
-import chatRoutes from "../routes/chatRoutes.js"
+import chatRoutes from "./routes/chatRoutes.js"
 
 
 const app=express()
