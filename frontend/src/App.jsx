@@ -1,4 +1,4 @@
-import './App.css'
+
 
 import {
   SignInButton,
@@ -10,7 +10,8 @@ import {
 function App() {
   return (
     <>
-      <h1>Welcome to the app</h1>
+      <h1 className="text-red-500">Welcome to the app</h1>
+      <button className="btn btn-secondary">Touch me</button>
 
       {/* ONLY when logged out */}
       <SignedOut>
