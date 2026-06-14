@@ -25,7 +25,7 @@ app.use(cors({ origin: ENV.CLIENT_URL, credentials: true }));
 
 app.use("/api/inngest",serve({ client: inngest, functions}) );
 
-app.use("api/chat",chatRoutes);
+app.use("/api/chat",chatRoutes);
 
 app.use("/api/sessions", sessionRoutes);
 
